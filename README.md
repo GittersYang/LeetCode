@@ -14,6 +14,7 @@ __在吗？上勾拳!__
 
 [4.~存在重复](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/~%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D.py)
 
+[5.只出现一次的数字](https://github.com/GittersYang/LeetCode/new/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84)
 
 
 
