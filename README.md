@@ -11,5 +11,19 @@ __在吗？上勾拳!__
 [2.买卖股票的最佳时机 II](https://github.com/GittersYang/LEETCODE-/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II.py)
 
 [3.旋转数组](https://github.com/GittersYang/LEETCODE-/new/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84)
+
+[4.~存在重复.py](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/~%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D.py)
+
+
+
+
+
+
+
+
+
+
+
+
 ## 字符串
 
