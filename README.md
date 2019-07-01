@@ -16,6 +16,8 @@ __在吗？上勾拳!__
 
 [5.只出现一次的数字](https://github.com/GittersYang/LeetCode/new/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84)
 
+[6.两个数组的交集 II](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.py)
+
 
 
 
