@@ -24,7 +24,7 @@ class Solution(object):
             except:
                 return nums
 
-method 2 --------------
+#method 2 --------------
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
