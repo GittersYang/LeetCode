@@ -35,7 +35,7 @@ class Solution:
                 if x:
                     yield x
         
-        i = 0
+        i = 0# 很重要
         for i, n in enumerate(gen(nums)):# enumerate 枚举 
             nums[i] = n
         for i in range(i + 1, len(nums)):
