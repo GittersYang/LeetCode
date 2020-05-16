@@ -9,6 +9,26 @@
 
 必须在原数组上操作，不能拷贝额外的数组。
 尽量减少操作次数。
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        int j=0;
+        int len =nums.size();
+        //int len =sizeof(nums)/sizeof(nums[0]);
+
+        for(int i=0; i<len; i++){
+            if(nums[i]!=0){
+                nums[j]=nums[i];
+                j++;
+            }
+        }
+        for(int i=j;i<len;i++){
+            nums[i]=0;
+        }
+
+    }
+};
+====================================================
 """
 
 class Solution(object):
