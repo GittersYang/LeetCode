@@ -1,4 +1,4 @@
-# Leetcode in python3   学习编程 准备算法工程师
+# Leetcode in cpp&python3   学习编程 
 
 __在吗？上勾拳!__
                                                       
