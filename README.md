@@ -28,6 +28,8 @@ __在吗？上勾拳!__
 
 [88. 合并两个有序数组(从后往前，将大的插入数组中)](https://github.com/GittersYang/LeetCode/tree/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84)
 
+[167. 两数之和 II - 输入有序数组(对撞指针)](https://github.com/GittersYang/LeetCode/tree/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84)
+
 
 
 
