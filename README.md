@@ -32,7 +32,7 @@ __在吗？上勾拳!__
 
 [209. 长度最小的子数组(滑动窗口)](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/209.%20%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84)
 
-[3. 无重复字符的最长子串(滑动窗口)](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/3.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)
+[3. 无重复字符的最长子串(滑动窗口)&用一个长度为256的数组记录字符出现的频率来检查重复](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/3.%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2)
 
 
 
