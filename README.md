@@ -25,6 +25,8 @@ __在吗？上勾拳!__
 
 [6.两个数组的交集 II](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.py)
 
+[349. 两个数组的交集](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/349.%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86)
+
 [7.加以](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/%E5%8A%A0%E4%B8%80.py)
 
 [283.移动零](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%95%B0%E7%BB%84/%E7%A7%BB%E5%8A%A8%E9%9B%B6.py)
