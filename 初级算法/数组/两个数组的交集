@@ -19,6 +19,23 @@
 如果 nums1 的大小比 nums2 小很多，哪种方法更优？
 如果 nums2 的元素存储在磁盘上，磁盘内存是有限的，并且你不能一次加载所有的元素到内存中，你该怎么办？
 """
+class Solution {
+public:
+    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+        map<int,int> record;
+        for(int i=0;i<nums1.size();i++){
+            record[nums1[i]]++;
+        }
+        vector<int> result;
+        for(int i=0;i<nums2.size();i++){
+            if(record[nums2[i]]>0){
+                result.push_back(nums2[i]);
+                record[nums2[i]]--;
+            }
+        }
+        return result;
+    }
+};
 
 # method1   yang    暴力循环法   为防止多于元素出现 只要appen后 其元素在第二个列表删除  nums2.append(..)-----------------
 a = []
@@ -29,6 +46,25 @@ for i in nums1:
  return a 
  
  #  method 2    li    利用双指针  --------------------------
+class Solution {
+public:
+    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+       sort(nums1.begin(),nums1.end());
+       sort(nums2.begin(),nums2.end());
+        vector<int> result;
+        int i=0,j=0;
+        while(i<nums1.size()&&j<nums2.size()){
+            if(nums1[i]==nums2[j]){
+                result.push_back(nums1[i]);
+                i++;
+                j++;
+            }
+            else if(nums1[i]<nums2[j]) i++;
+            else j++;
+        }
+        return result;
+    }
+};
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1.sort()
