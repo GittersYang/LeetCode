@@ -15,6 +15,26 @@
 进阶:
 如果输入字符串包含 unicode 字符怎么办？你能否调整你的解法来应对这种情况？
 """
+
+26字母频率数组表
+class Solution {
+public:
+    bool isAnagram(string s, string t) {
+        if(s.size() != t.size())
+            return false;
+        vector<int> n(26);
+        for(int i = 0; i < s.size(); i++)
+        {
+            n[s[i] - 'a']++;
+            n[t[i] - 'a']--;
+        }
+        for(int i = 0; i < 26; i++)
+            if(n[i])
+                return false;
+        return true;
+    }
+};
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         from collections import defaultdict
