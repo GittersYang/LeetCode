@@ -58,6 +58,8 @@ __在吗？上勾拳!__
 
 [345. 反转字符串中的元音字母](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E5%AD%97%E7%AC%A6%E4%B8%B2/345.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E5%85%83%E9%9F%B3%E5%AD%97%E6%AF%8D)
 
+[290. 单词规律](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E5%AD%97%E7%AC%A6%E4%B8%B2/290.%20%E5%8D%95%E8%AF%8D%E8%A7%84%E5%BE%8B)
+
 
 ## 查找问题（set,map）
 
