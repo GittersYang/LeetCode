@@ -5,7 +5,27 @@
 
 示例:
 
-# 使用对撞指针
+# 有序后使用对撞指针
+
+# 字典查找
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+    unordered_map<int,int> m;
+    for(int i=0;i<nums.size();i++){
+        int complement=target-nums[i];
+        if(m.find(complement)!=m.end()){
+            int res[2]={i,m[complement]};
+            return vector<int> (res,res+2);
+        }
+        else{
+            m[nums[i]]=i;
+        }
+        
+    }
+        throw invalid_argument("sss");
+    }
+};
 
 给定 nums = [2, 7, 11, 15], target = 9
 
