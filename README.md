@@ -72,4 +72,7 @@ __在吗？上勾拳!__
 
 [219. 存在重复元素 II](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE%E8%A1%A8/219.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20II)
 
+[220. 存在重复元素 3]
+(https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%9F%A5%E6%89%BE%E8%A1%A8/220.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20III)
+
 
