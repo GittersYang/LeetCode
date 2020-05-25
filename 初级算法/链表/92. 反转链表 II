@@ -1,0 +1,55 @@
+反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
+
+说明:
+1 ≤ m ≤ n ≤ 链表长度。
+
+示例:
+
+输入: 1->2->3->4->5->NULL, m = 2, n = 4
+输出: 1->4->3->2->5->NULL
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/reverse-linked-list-ii
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
+class Solution {
+public:
+    ListNode* reverseBetween(ListNode* head, int m, int n) {
+        ListNode* pre = NULL;
+        ListNode* cur = head;
+        ListNode* pre0,*cur0;
+        unsigned int count = 1;
+        while(cur != NULL && count <= n){
+            //当cur为m时,记录一下当前cur和pre
+            if(count == m)//在头节点,则记录当前pre和cur供后续连接使用
+            {
+                pre0 = pre;
+                cur0 = cur;
+            }
+            //当cur在(m,n]之间时，反转链表
+            if(count > m && count <= n)
+            {
+                ListNode* temp = cur->next;
+                cur->next = pre;
+                pre = cur;
+                cur = temp;
+            }
+            else         //常规迭代处理
+            {
+                pre = cur;
+                cur = cur->next;
+            }
+            //常规处理
+            ++count; 
+        }
+        //最后的链接操作
+        //将pre0的next指向第n元素,此时pre指向n，cur指向原始链表中n的下一个元素
+        if(pre0 == NULL) head = pre;
+        else pre0->next = pre;
+        //将指向m的cur0的next指向n后第一个元素
+        cur0->next = cur;
+
+        return head;
+    }
+};
+
