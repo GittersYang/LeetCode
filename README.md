@@ -78,6 +78,7 @@ __在吗？上勾拳!__
 
 
 ## 链表
+预先保留头节点
 
 [206. 反转链表](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E9%93%BE%E8%A1%A8/206.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8)
 
