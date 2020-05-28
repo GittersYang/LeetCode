@@ -1,0 +1,77 @@
+给定一个链表，旋转链表，将链表每个节点向右移动 k 个位置，其中 k 是非负数。
+
+示例 1:
+
+输入: 1->2->3->4->5->NULL, k = 2
+输出: 4->5->1->2->3->NULL
+解释:
+向右旋转 1 步: 5->1->2->3->4->NULL
+向右旋转 2 步: 4->5->1->2->3->NULL
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* rotateRight(ListNode* head, int k) {
+        int n=1;
+        ListNode* m=head;
+        if(m==NULL) return NULL;  //注意考虑[] k=0的情况
+        while(m->next!=NULL){
+            m=m->next;
+            n++;
+        }
+        if(k>=n) k=k%n;//k过大时应考虑
+        if(k==0) return head;
+        
+        ListNode* dummyhead=new ListNode(-1);
+        dummyhead->next=head;
+        ListNode* node1=dummyhead;
+        //if(node1->next->next==NULL) return NULL;
+        ListNode* node2=node1;
+        
+
+        for(int i=0;i<k;i++){
+            node2=node2->next;
+        }
+        while(node2->next!=NULL){
+            node2=node2->next;
+            node1=node1->next;
+            
+        }
+       
+        ListNode* pre=node1;
+        node1=node1->next;
+        dummyhead->next=node1;
+        node2->next=head;
+        pre->next=NULL;
+        ListNode* ret=dummyhead->next;
+        delete dummyhead;
+        return ret;
+        // ListNode* dummyHead=new ListNode(-1);
+        // dummyHead->next=head;
+        // //ListNode* node1=head;
+       
+        // for(int i=0;i<k;i++){
+        //     //ListNode* node2=dummyHead->next;
+        //     ListNode* pre=dummyHead;
+        //     while(pre->next->next!=NULL){
+        //     pre=pre->next;
+        // }
+        //     ListNode* node2=pre->next;
+        //     pre->next=NULL;
+        //     node2->next=head;
+        //     dummyHead->next=node2;
+            
+        //     }
+        
+        // ListNode* ret= dummyHead->next;
+        // delete dummyHead;
+        // return ret;
+    }
+};
