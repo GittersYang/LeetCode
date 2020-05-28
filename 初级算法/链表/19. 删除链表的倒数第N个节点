@@ -1,0 +1,50 @@
+给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
+
+示例：
+
+给定一个链表: 1->2->3->4->5, 和 n = 2.
+
+当删除了倒数第二个节点后，链表变为 1->2->3->5.
+
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+ //利用虚拟头节点 注意防止链表越界
+class Solution {
+public:
+    
+    
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode* dummyhead=new ListNode(-1);
+        dummyhead->next=head;
+        ListNode* node1=dummyhead;
+        if(node1->next->next==NULL) return NULL;
+        ListNode* node2=node1;
+
+        for(int i=0;i<n;i++){
+            node2=node2->next;
+        }
+        while(node2->next!=NULL){
+            node2=node2->next;
+            node1=node1->next;
+        }
+        ListNode* delnode=node1->next;
+        if(delnode->next==NULL){
+            node1->next=NULL;
+            delete delnode;
+        }
+        else{
+            node1->next=delnode->next;
+            delete delnode;
+        }
+        ListNode* ret=dummyhead->next;
+        delete dummyhead;
+        return ret;
+    }
+};
