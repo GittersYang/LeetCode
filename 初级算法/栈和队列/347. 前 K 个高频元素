@@ -1,0 +1,44 @@
+给定一个非空的整数数组，返回其中出现频率前 k 高的元素。
+
+ 
+
+示例 1:
+
+输入: nums = [1,1,1,2,2,3], k = 2
+输出: [1,2]
+示例 2:
+
+输入: nums = [1], k = 1
+输出: [1]
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/top-k-frequent-elements
+著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+class Solution {
+public:
+    vector<int> topKFrequent(vector<int>& nums, int k) {
+        unordered_map<int,int> m;
+        for(auto &i:nums){
+            m[i]++;
+        }
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> qp;
+        for(unordered_map<int,int>::iterator iter=m.begin();iter!=m.end();iter++){
+            if(qp.size()==k){
+                if(iter->second>qp.top().first) {
+                    qp.pop();
+                    qp.push(make_pair(iter->second,iter->first));
+                }
+            }
+            else qp.push(make_pair(iter->second,iter->first));
+        }
+        vector<int> ret;
+        while(!qp.empty()){
+            ret.push_back(qp.top().second);
+            qp.pop();
+        }
+        return ret;
+
+
+
+    }
+};
