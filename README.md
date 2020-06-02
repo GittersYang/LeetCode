@@ -116,4 +116,8 @@ __在吗？上勾拳!__
 [279. 完全平方数](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/279.%20%E5%AE%8C%E5%85%A8%E5%B9%B3%E6%96%B9%E6%95%B0)
 图的广度优先遍历（遍历时注意将一个数组，将已经遍历过的数标记好 下次不要重复遍历） 最短路径  
 
+[347. 前 K 个高频元素](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/347.%20%E5%89%8D%20K%20%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0)
+
+优先队列
+
 
