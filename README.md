@@ -118,6 +118,10 @@ __在吗？上勾拳!__
 
 [347. 前 K 个高频元素](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E6%A0%88%E5%92%8C%E9%98%9F%E5%88%97/347.%20%E5%89%8D%20K%20%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0)
 
+
+##二叉树
+
+[104. 二叉树的最大深度](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/104.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6)
 优先队列
 
 
