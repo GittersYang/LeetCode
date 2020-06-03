@@ -129,6 +129,8 @@ __在吗？上勾拳!__
 
 [101. 对称二叉树](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/101.%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91)
 
+[112. 路径总和](https://github.com/GittersYang/LeetCode/blob/master/%E5%88%9D%E7%BA%A7%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%A0%91/112.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C)
+
 
 
 
